@@ -5,10 +5,10 @@ A boilerplate for projects using Next.js and TypeScript.
 
 ## Scripts
 
-Run any of the following scripts using `npm`:
+Run any of the following scripts using `yarn`:
 
 ```
-npm run <script>
+yarn <script>
 ```
 
 | Script | Description                                                          |
@@ -19,6 +19,14 @@ npm run <script>
 | fix    | Automatically fix all linting issues in files                        |
 | lint   | Check all files, reporting them to the console                       |
 | start  | Start the Next.js application in production mode, requires `build`   |
+
+### Don't have Yarn?
+
+Install it using npm.
+
+```
+npm install --global yarn
+```
 
 ## Environment Variables
 
