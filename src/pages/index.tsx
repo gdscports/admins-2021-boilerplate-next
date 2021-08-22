@@ -1,4 +1,5 @@
 import {Button, Container, Typography} from '@material-ui/core';
+import LaunchIcon from '@material-ui/icons/Launch';
 import {NextPage} from 'next';
 
 import Link, {NextLinkComposed} from '../components/Link';
@@ -19,6 +20,7 @@ const Page: NextPage = () => (
         variant="contained"
         sx={{mt: 6, mb: 3}}
         to="https://github.com/gdscports/admins-2021-boilerplate-next-BNXT"
+        endIcon={<LaunchIcon />}
       >
         Clone this on GitHub
       </Button>
