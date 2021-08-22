@@ -42,8 +42,8 @@ npm install --global yarn
 
 This includes:
 
-**.env.local**: Use a `.env.local` file for any sensitive keys. These should not be pushed to GitHub.
-**.env**: Use a `.env` file for any application configuration that can be safely committed to GitHub, such as a `PORT` value.
+- **.env.local**: Use a `.env.local` file for any sensitive keys. These should not be pushed to GitHub.
+- **.env**: Use a `.env` file for any application configuration that can be safely committed to GitHub, such as a `PORT` value.
 
 ### 🌐 Exposing Environment Variables to the Browser
 
