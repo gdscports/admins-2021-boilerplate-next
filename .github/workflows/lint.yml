@@ -8,5 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: 🔨 Install Dependencies
+        run: yarn
       - name: 🧤 Lint
         run: yarn lint
