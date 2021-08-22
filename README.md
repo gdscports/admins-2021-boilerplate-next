@@ -1,6 +1,5 @@
 # Next.js Boilerplate
 [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
-![CI](https://github.com/github/docs/actions/workflows/lint.yml/badge.svg?branch=main)
 
 A boilerplate for projects using Next.js and TypeScript.
 
