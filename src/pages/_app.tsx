@@ -5,6 +5,7 @@ import type {AppProps} from 'next/app';
 import {useMemo} from 'react';
 
 import createEmotionCache from '../helpers/createEmotionCache';
+import Layout from '../components/Layout';
 
 export interface ExtendedAppProps extends AppProps {
   emotionCache?: EmotionCache;
@@ -33,7 +34,9 @@ const App = ({
     <CacheProvider value={emotionCache}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </ThemeProvider>
     </CacheProvider>
   );
