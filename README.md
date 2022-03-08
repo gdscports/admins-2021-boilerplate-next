@@ -6,7 +6,6 @@ A boilerplate for projects using Next.js and TypeScript.
 ## ✨ Features
 
 - [Next.js 12](https://nextjs.org/), for all your production-ready React SSR (or Static) needs
-- [Material UI](https://material-ui.com/), providing a usable React library
 - [Google TypeScript Style](https://github.com/google/gts), for consistent, readable code
 - [Husky](https://www.npmjs.com/package/husky), for pre-commit linting and build checks
 - [Issue Templates](./.github/ISSUE_TEMPLATE/feature-request.md), to get you up and running in Open Source quickly
